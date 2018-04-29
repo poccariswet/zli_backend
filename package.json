@@ -5,7 +5,8 @@
     "eslint": "./node_modules/.bin/eslint",
     "eslint:init": "eslint --init",
     "eslint:check": "eslint ./js",
-    "eslint:fix" : "eslint --fix ./js"
+    "eslint:fix" : "eslint --fix ./js",
+    "local": "sls invoke local -f schedule"
   },
   "dependencies": {
     "dotenv": "^5.0.1",
