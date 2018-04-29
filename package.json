@@ -1,0 +1,8 @@
+{
+  "name": "zli_backend",
+  "version": "1.0.0",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "pg": "^7.4.1"
+  }
+}
