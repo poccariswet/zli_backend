@@ -13,6 +13,7 @@ yarn run eslint:check
 yarn run eslint:fix
 ```
 ## run
+**local test**
 ```
 yarn run local
 ```
