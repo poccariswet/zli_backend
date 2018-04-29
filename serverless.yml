@@ -1,0 +1,16 @@
+service: aws-nodejs # NOTE: update this with your service name
+provider:
+  name: aws
+  runtime: nodejs6.10
+  stage: dev
+  region: ap-northeast-1
+
+package:
+  include:
+    - handler.js 
+  exclude:
+    - node_modules/** 
+
+functions:
+  schedule:
+    handler: handler.schedule
