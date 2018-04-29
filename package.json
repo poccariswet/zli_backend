@@ -1,8 +1,17 @@
 {
   "name": "zli_backend",
   "version": "1.0.0",
+  "scripts": {
+    "eslint": "./node_modules/.bin/eslint",
+    "eslint:init": "eslint --init",
+    "eslint:check": "eslint ./js",
+    "eslint:fix" : "eslint --fix ./js"
+  },
   "dependencies": {
     "dotenv": "^5.0.1",
     "pg": "^7.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1"
   }
 }
